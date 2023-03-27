@@ -1150,6 +1150,7 @@ textarea {
     transition: opacity var(--animation),
     visibility var(--animation),
     transform var(--animation);
+    overflow-y: scroll;
 }
 
 .mobile-menu.is-open {
