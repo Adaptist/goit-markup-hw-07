@@ -952,6 +952,7 @@ section {
     background-color: var(--color-dairy);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+
     transition: opacity var(--animation) 250ms;
 }
 @media screen and (max-width: 767px) {
@@ -1030,6 +1031,12 @@ section {
 
     transition:  opacity var(--animation);
 }
+@media screen and (max-width: 400px) {
+    .modal-form__field {
+        width: 285px;
+    }
+}
+
 
 .modal-form__field:focus,
 .modal-form__text:focus {
@@ -1058,6 +1065,11 @@ textarea {
     opacity: 0.2;
     border: 1px solid var(--color-navy-blue);
     border-radius: 4px
+}
+@media screen and (max-width: 400px) {
+    textarea {
+        width: 285px;
+    }
 }
 
 .modal-form__text {
