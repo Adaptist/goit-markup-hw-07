@@ -157,7 +157,7 @@ section {
     font-size: 16px;
     line-height: calc(24/16);
     color: var(--color-navy-blue);
-    padding-bottom: 28px;
+    padding: 28px 0;
     transition: color var(--animation);
 }
 
@@ -199,7 +199,8 @@ section {
     }
 }
 
-.address-link {  
+.address-link {
+    padding: 28px 0;
     margin-left: auto;
     font-style: normal;
     font-weight: 400;
@@ -1151,6 +1152,9 @@ textarea {
     visibility var(--animation),
     transform var(--animation);
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .mobile-menu.is-open {
@@ -1212,8 +1216,8 @@ textarea {
     margin-bottom: 48px;
 }
 .mobile-menu__adress-flex {
-    margin-top: 284px;
 }
+
 .mobile-menu__item-flex,
 .mobile-menu__adress-flex {
     display: flex;
@@ -1224,8 +1228,8 @@ textarea {
 
 .mobile-menu__contact-phone {
     font-weight: 600;
-    font-size: 36px;
-    line-height: calc(40 \ 36);
+    font-size: 20px;
+    line-height: calc(24 \ 20);
     text-transform: capitalize;
     color: var(--color-iris);
     margin-bottom: 40px;
@@ -1245,7 +1249,7 @@ textarea {
 .mob-menu__socials {
     display: flex;
     justify-content: start;
-    gap: 56px;
+    gap: 32px;
 }
 
 .mob-menu__social-link {
